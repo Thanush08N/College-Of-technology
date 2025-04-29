@@ -1,0 +1,30 @@
+
+.Gallery {
+    text-align: center;
+    padding: 20px;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.Gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 10px;
+}
+
+.Gallery-item {
+    position: relative;
+}
+
+.Gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.title{
+    text-align: center;
+}

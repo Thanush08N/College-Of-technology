@@ -1,0 +1,32 @@
+.campus {
+    margin: 80px auto;
+    width: 90%;
+    text-align: center;
+    background-color: rgba(107, 107, 107, 0.052);
+    border-radius: 10px;
+
+
+
+}
+
+.gallery {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+}
+
+.gallery img {
+    width: 32%;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 10px;
+
+}
+
+.btn.dark-btn {
+    background: #8A899D;
+    color: #fff;
+    margin-bottom: 15px;
+}
